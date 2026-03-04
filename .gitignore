@@ -1,0 +1,13 @@
+venv/
+models/
+Data/
+transcripts/
+*.wav
+*.json
+*.txt
+*.srt
+*.tsv
+*.vtt
+__pycache__/
+*.pyc
+ .env
