@@ -1,0 +1,16 @@
+Model Comparison:
+
+Vosk:
+- Offline
+- Lightweight
+- Faster
+- WER: 0.26
+
+Whisper:
+- Transformer-based
+- More accurate
+- Slower
+- WER: 0.12
+
+Selected Model: Whisper
+Reason: Lower WER and better transcription quality.
