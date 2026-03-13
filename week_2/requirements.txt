@@ -1,0 +1,6 @@
+vosk
+sounddevice
+jiwer
+faster-whisper
+soundfile
+numpy

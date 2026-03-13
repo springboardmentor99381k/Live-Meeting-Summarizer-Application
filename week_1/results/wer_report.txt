@@ -1,0 +1,2 @@
+Vosk WER: 1.00
+Whisper WER: 0.08
