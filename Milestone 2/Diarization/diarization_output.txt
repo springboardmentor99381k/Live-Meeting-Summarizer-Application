@@ -1,0 +1,232 @@
+----- Final Output -----
+
+[0.0 - 8.0] Unknown:
+I think it's already produced a PowerPoint version.
+
+[8.0 - 10.0] SPEAKER_00:
+I think it's already done, actually.
+
+[10.0 - 18.0] Unknown:
+Go ahead and listen, work.
+
+[48.0 - 51.0] Unknown:
+Okay.
+
+[56.0 - 62.0] SPEAKER_00:
+Well, it's the kickoff meeting for our project.
+
+[62.0 - 68.0] SPEAKER_00:
+And this is just what we're going to be doing over the next 25 minutes.      
+
+[68.0 - 72.0] SPEAKER_00:
+So, first of all, just to kind of make sure that we all know each other.     
+
+[72.0 - 75.0] SPEAKER_00:
+I'm Laura and I'm the Project Manager.
+
+[75.0 - 76.0] SPEAKER_00:
+Great.
+
+[76.0 - 78.0] SPEAKER_00:
+Do you want to introduce yourself again?
+
+[78.0 - 81.0] SPEAKER_01:
+I'm David and I'm supposed to be a industrial designer.
+
+[81.0 - 82.0] SPEAKER_00:
+Okay.
+
+[82.0 - 87.0] Unknown:
+I'm Andrew and I'm a marketing expert.
+
+[87.0 - 89.0] SPEAKER_01:
+I'm Greg and I'm a hugeurrent face.
+
+[89.0 - 90.0] Unknown:
+Great.
+
+[90.0 - 92.0] SPEAKER_00:
+Okay.
+
+[92.0 - 95.0] SPEAKER_00:
+So we're designing a new remote control.
+
+[95.0 - 98.0] SPEAKER_00:
+And, oh, I have to record he's here, actually.
+
+[98.0 - 104.0] SPEAKER_00:
+So that's David, Andrew and Craig, as much.
+
+[104.0 - 109.0] Unknown:
+And you're alive, don't you?
+
+[109.0 - 112.0] SPEAKER_00:
+Yes, we designed a new remote control.
+
+[112.0 - 118.0] SPEAKER_00:
+As you can see, it's supposed to be original, trendy and user-friendly.      
+
+[118.0 - 123.0] SPEAKER_00:
+So that's kind of our brief that we are.
+
+[123.0 - 126.0] SPEAKER_00:
+And so there are three different stages to the design.
+
+[126.0 - 131.0] SPEAKER_00:
+I'm already sure what you guys have already received in your emails.
+
+[131.0 - 133.0] SPEAKER_00:
+What did you get?
+
+[133.0 - 136.0] SPEAKER_01:
+I just got the project announcement.
+
+[136.0 - 139.0] SPEAKER_01:
+I think that design is a new remote control.
+
+[139.0 - 142.0] SPEAKER_01:
+Yeah, that's what everybody got.
+
+[142.0 - 144.0] SPEAKER_00:
+Okay.
+
+[144.0 - 148.0] SPEAKER_00:
+So we're going to have individual work and then a meeting about it.
+
+[148.0 - 154.0] SPEAKER_00:
+And repeat that process three times.
+
+[154.0 - 159.0] Unknown:
+And at this point, you get to try out the whiteboard over there.
+
+[159.0 - 166.0] SPEAKER_00:
+So you get to draw your favorite animal and sum up your favorite characteristics of it.
+
+[166.0 - 167.0] SPEAKER_00:
+So who would like to go first?
+
+[167.0 - 168.0] SPEAKER_00:
+I don't want to go first.
+
+[168.0 - 169.0] SPEAKER_00:
+Very good.
+
+[174.0 - 176.0] Unknown:
+All right.
+
+[176.0 - 178.0] SPEAKER_01:
+So.
+
+[181.0 - 183.0] Unknown:
+This one here, right?
+
+[183.0 - 184.0] Unknown:
+Mm-hmm.
+
+[184.0 - 185.0] SPEAKER_01:
+Okay.
+
+[185.0 - 186.0] SPEAKER_01:
+Very nice.
+
+[186.0 - 187.0] SPEAKER_01:
+All right.
+
+[187.0 - 194.0] SPEAKER_01:
+And my favorite animal is like...
+
+[203.0 - 205.0] Unknown:
+A bigo.
+
+[211.0 - 213.0] Unknown:
+And...
+
+[213.0 - 215.0] SPEAKER_01:
+A favorite characteristics of it?
+
+[215.0 - 216.0] SPEAKER_01:
+Is that right?
+
+[216.0 - 217.0] SPEAKER_01:
+Yeah.
+
+[217.0 - 218.0] SPEAKER_01:
+All right.
+
+[218.0 - 223.0] SPEAKER_01:
+Well, basically, high priority for any animal for me is that they
+
+[223.0 - 229.0] SPEAKER_01:
+be willing to take a lot of physical affection from their family.
+
+[229.0 - 231.0] SPEAKER_01:
+And...
+
+[231.0 - 235.0] SPEAKER_01:
+Yeah, they have lots of personality and...
+
+[235.0 - 238.0] SPEAKER_01:
+be fit and then robust good health.
+
+[238.0 - 240.0] SPEAKER_01:
+So this is blue...
+
+[240.0 - 241.0] SPEAKER_01:
+Bluebiego.
+
+[241.0 - 243.0] SPEAKER_01:
+I say my speedy go.
+
+[243.0 - 244.0] Unknown:
+Right?
+
+[244.0 - 246.0] SPEAKER_00:
+Lovely.
+
+[254.0 - 259.0] Unknown:
+No, my favorite animal would be a monkey.
+
+[260.0 - 262.0] Unknown:
+And...
+
+[265.0 - 268.0] Unknown:
+...
+
+[268.0 - 270.0] SPEAKER_01:
+...
+
+[270.0 - 271.0] SPEAKER_01:
+...
+
+[271.0 - 273.0] SPEAKER_01:
+...
+
+[273.0 - 276.0] SPEAKER_01:
+...
+
+[276.0 - 280.0] SPEAKER_00:
+...
+
+[280.0 - 282.0] Unknown:
+...
+
+[282.0 - 285.0] SPEAKER_00:
+...
+
+[286.0 - 290.0] SPEAKER_00:
+You can take as long as this is your life because we haven't got an awful lot to this business.
+
+[290.0 - 292.0] SPEAKER_00:
+What we do, we do.
+
+[292.0 - 295.0] SPEAKER_00:
+Don't feel like you're in a rush anyway.
+
+[296.0 - 298.0] SPEAKER_01:
+I could tell you a lot more about beagles.
+
+[298.0 - 299.0] SPEAKER_01:
+I could too.
+
+[299.0 - 300.0] SPEAKER_01:
+I would have to get you.
