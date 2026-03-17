@@ -110,3 +110,65 @@ Planned improvements for upcoming stages:
 AI Live Meeting Summarizer Project  
 Implementation completed up to Week 3
 
+## Week 4: Meeting Summarization
+
+In Week 4, we implemented automatic meeting summarization using Natural Language Processing (NLP).
+
+### Features
+- Converts raw transcriptions into concise summaries
+- Extracts key points from long conversations
+- Improves readability of meeting outputs
+
+### Technologies Used
+- Python
+- NLP techniques
+- (Optional: HuggingFace / Transformers if you used it)
+
+### Output
+- Input: Full meeting transcript
+- Output: Short, meaningful summary
+
+## Week 5: Backend Pipeline
+
+In Week 5, we built the backend pipeline to integrate all components into a complete system.
+
+### Features
+- Handles both recorded audio and live meetings
+- Integrates:
+  - Speech-to-Text
+  - Speaker Diarization
+  - Summarization
+- End-to-end processing pipeline
+
+### Workflow
+Audio Input → Transcription → Speaker Identification → Summarization → Output
+
+### Technologies Used
+- Python
+- Flask (if you used it)
+- API integration
+
+### Output
+- Structured meeting summary with speaker labels
+
+## 🏁 Final System Overview
+
+This project is a complete AI-powered meeting assistant that performs:
+
+- 🎙 Speech-to-Text using Whisper
+- 👥 Speaker Diarization using Pyannote
+- 📝 Meeting Summarization using NLP
+- ⚙️ Backend Pipeline for real-time processing
+
+### Final Output
+- Speaker-wise transcription
+- Clean summarized meeting notes
+
+---
+
+## 📂 Project Structure
+Week1/  # STT Evaluation 
+Week2/  # Live Transcription 
+Week3/  # Speaker Diarization 
+Week4/  # Summarization 
+Week5/  # Backend Integration

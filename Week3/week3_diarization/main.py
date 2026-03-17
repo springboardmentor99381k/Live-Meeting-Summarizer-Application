@@ -1,19 +1,21 @@
-from diarization import run_diarization
-from transcription import run_transcription
-from merge import merge_speaker_text
+from .transcription import transcribe_audio
+from .diarization import run_diarization
+from .merge import merge_transcript_and_speakers
 
 AUDIO_FILE = "short.wav"
 
 print("Step 1: Transcription")
-stt_segments = run_transcription(AUDIO_FILE)
+transcript = transcribe_audio(AUDIO_FILE)
 
 print("Step 2: Diarization")
-diar_segments = run_diarization(AUDIO_FILE)
+diarization = run_diarization(AUDIO_FILE)
 
 print("Step 3: Merging")
-final_output = merge_speaker_text(diar_segments, stt_segments)
+final_transcript = merge_transcript_and_speakers(transcript, diarization)
 
 print("\nFinal Speaker-wise Transcript:\n")
 
-for item in final_output:
-    print(f"{item['speaker']}: {item['text']}")
+with open("transcript.txt", "w", encoding="utf-8") as f:
+    for line in final_transcript:
+        print(line)
+        f.write(line + "\n")

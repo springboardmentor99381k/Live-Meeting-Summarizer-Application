@@ -1,45 +1,42 @@
 import whisper
 import sounddevice as sd
 import numpy as np
-import scipy.io.wavfile as wav
-import tempfile
-import os
+import queue
 
-SAMPLE_RATE = 16000
-CHUNK_DURATION = 2
+def transcribe_audio(audio_file=None):
+    """
+    Week-5 pipeline entry point.
+    Uses your existing live microphone STT.
+    Returns the combined transcript after you press Ctrl+C.
+    """
 
-print("Loading Whisper model...")
-model = whisper.load_model("base")
+    model = whisper.load_model("base")
+    q = queue.Queue()
+    transcript_parts = []
 
-print("🎤 Start speaking... Press Ctrl+C to stop.")
+    print("🎤 Start speaking... Press Ctrl+C to stop.")
 
-try:
-    while True:
-        print("\nRecording...")
-        audio = sd.rec(int(CHUNK_DURATION * SAMPLE_RATE),
-                       samplerate=SAMPLE_RATE,
-                       channels=1,
-                       dtype='int16')
-        sd.wait()
+    def callback(indata, frames, time, status):
+        q.put(indata.copy())
 
-        print("Audio max value:", np.max(audio))
+    try:
+        with sd.InputStream(samplerate=16000, channels=1, callback=callback):
+            while True:
+                print("\nRecording...")
+                audio = q.get()
 
-        # Normalize
-        audio_float = audio.astype(np.float32) / 32768.0
+                audio_np = np.squeeze(audio)
 
-        temp_path = tempfile.mktemp(suffix=".wav")
-        wav.write(temp_path, SAMPLE_RATE, audio_float)
+                result = model.transcribe(audio_np)
+                print("RAW RESULT:", result)
 
-        print("Transcribing...")
-        result = model.transcribe(temp_path, language="en", fp16=False)
+                text = result.get("text", "").strip()
+                if text:
+                    print("You said:", text)
+                    transcript_parts.append(text)
 
-        text = result["text"].strip()
-        print("RAW RESULT:", result)
+    except KeyboardInterrupt:
+        print("\nStopped Whisper live transcription.")
 
-        if text:
-            print("You said:", text)
-
-        os.remove(temp_path)
-
-except KeyboardInterrupt:
-    print("\nStopped Whisper live transcription.")
+    # Return full transcript for the pipeline
+    return " ".join(transcript_parts)
