@@ -1,0 +1,1 @@
+Hello everyone. This is a Live Meeting Summarizer project. The week 2 task is to implement real time speech to text.
