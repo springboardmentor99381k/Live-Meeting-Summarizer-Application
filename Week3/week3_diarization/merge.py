@@ -1,17 +1,21 @@
-def merge_speaker_text(diar_segments, stt_segments):
-    final_output = []
+def merge_transcript_and_speakers(transcript, diarization):
 
-    for stt in stt_segments:
-        stt_start = stt["start"]
-        stt_end = stt["end"]
-        text = stt["text"]
+    merged_output = []
 
-        for diar in diar_segments:
-            if stt_start >= diar["start"] and stt_end <= diar["end"]:
-                final_output.append({
-                    "speaker": diar["speaker"],
-                    "text": text
-                })
+    for segment in transcript:
+
+        start = segment["start"]
+        text = segment["text"]
+
+        speaker_label = "UNKNOWN"
+
+        for turn, _, speaker in diarization.itertracks(yield_label=True):
+
+            if turn.start <= start <= turn.end:
+                speaker_label = speaker
                 break
 
-    return final_output
+        line = f"{speaker_label}: {text}"
+        merged_output.append(line)
+
+    return merged_output

@@ -1,0 +1,16 @@
+
+MEETING SUMMARY
+---------------
+A group of people gather for a meeting to discuss a new remote control design. The project manager asks them to draw pictures of their favorite animals and sum up their favorite characteristics of them. The group then discusses the design of the remote control.
+
+KEY POINTS
+----------
+The meeting is called the kickoff meeting for a new remote control design project. The project manager introduces the participants and asks them to introduce themselves. The meeting is followed by a power point presentation.
+
+DECISIONS
+---------
+The meeting is called the kickoff meeting for a new remote control design project. The project manager introduces the participants and asks them to draw their favorite animals. The meeting is followed by a power point presentation.
+
+ACTION ITEMS
+------------
+The meeting is called the kickoff meeting for a new remote control design project. The project manager introduces the participants and lays out the agenda for the next 25 minutes. The meeting begins with a power point presentation.
