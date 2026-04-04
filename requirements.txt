@@ -1,0 +1,8 @@
+streamlit
+vosk
+sounddevice
+soundfile
+numpy
+transformers
+torch
+jiwer
