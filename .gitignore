@@ -10,4 +10,4 @@ __pycache__/
 # Environment variables - NEVER commit .env files that contain secrets!
 .env
 .env.local
-.env.*.local
+

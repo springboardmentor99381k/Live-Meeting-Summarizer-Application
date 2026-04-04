@@ -1,0 +1,7 @@
+openai-whisper
+pyannote.audio
+sounddevice
+numpy
+transformers
+soundfile
+torch
