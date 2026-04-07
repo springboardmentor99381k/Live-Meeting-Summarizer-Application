@@ -1,0 +1,32 @@
+1. Launch the application using Streamlit:
+   streamlit run app.py
+
+2. Enter the meeting title in the input field.
+
+3. Click "Start Recording" to begin capturing audio 
+   OR upload a meeting audio file.
+
+4. Speak into the microphone or play a meeting recording.
+
+5. Click "Stop Recording" to end the session.
+
+6. The system automatically processes:
+   - Speech-to-Text conversion using Whisper
+   - Speaker diarization using pyannote
+   - Text summarization using BART model
+
+7. View the outputs in the UI:
+   - Real-time transcription log
+   - Speaker-wise (diarized) transcript
+   - Generated meeting summary
+
+8. Use export options:
+   - Download summary as Markdown
+   - Download summary as PDF
+
+9. Use email feature:
+   - Enter sender email and app password
+   - Enter recipient email
+   - Click "Send Email" to share the summary
+
+10. All meeting data is saved with timestamp in logs for future reference.
