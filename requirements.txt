@@ -1,0 +1,11 @@
+streamlit
+openai-whisper
+sounddevice
+soundfile
+numpy
+torch
+torchaudio
+transformers
+pyannote.audio
+fpdf
+pandas

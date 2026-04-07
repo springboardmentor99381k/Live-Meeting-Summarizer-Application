@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.venv/
+venv/
+.env
+
+outputs/uploads/
+outputs/exports/
+outputs/logs/
+
+*.wav
+*.mp3
+*.m4a
+*.parquet
