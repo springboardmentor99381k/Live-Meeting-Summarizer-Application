@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactLoading from 'react-loading';
 import Recorder from "./components/Recorder.jsx";
 import Status from "./components/Status.jsx";
 import Result from "./components/Result.jsx";
@@ -83,7 +82,7 @@ function App() {
                <div className="flex items-center justify-between mb-6">
                   <h3 className="text-sm font-bold text-slate-300 tracking-wide uppercase">Live Analysis</h3>
                   {status === "processing" && (
-                    <ReactLoading type="bars" color="#818cf8" height={24} width={24} />
+                    <div className="w-6 h-6 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin"></div>
                   )}
                </div>
                <div className="p-6 bg-white/5 rounded-2xl border border-white/5 backdrop-blur-sm">
@@ -141,7 +140,7 @@ function App() {
                     </div>
                   ) : (
                     <div className="flex flex-col items-center justify-center h-full py-32 text-slate-400 gap-8">
-                      <ReactLoading type="spinningBubbles" color="#8b5cf6" height={80} width={80} />
+                      <div className="w-20 h-20 border-4 border-indigo-500/30 border-t-indigo-500 rounded-full animate-spin shadow-xl shadow-indigo-500/10"></div>
                       <p className="animate-pulse font-medium tracking-wide text-indigo-300">Extracting Insights from Audio Stream...</p>
                     </div>
                   )}
