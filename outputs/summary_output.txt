@@ -1,0 +1,1 @@
+The Whisper model has been integrated successfully, and we are able to convert meeting audio into text with good accuracy. However, we are still working on improving the transcription quality for noisy audio recordings. We have started using the BART large CNN model from Hugging Face to generate meeting summaries from the diarized transcripts.

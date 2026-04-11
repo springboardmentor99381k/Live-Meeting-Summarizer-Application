@@ -1,0 +1,49 @@
+
+
+Speaker 1: Good morning everyone. Thank you for joining the project progress meeting. Today we will discuss the current status of the live meeting summarizer application and review the work completed so far.
+
+Speaker 2: Good morning. I will start with the speech-to-text module. The Whisper model has been integrated successfully, and we are able to convert meeting audio into text with good accuracy. However, we are still working on improving the transcription quality for noisy audio recordings.
+
+Speaker 3: That's great progress. I have been working on the speaker diarization module using the pyannote model. Currently, the system can identify different speakers in the meeting audio, but sometimes it misclassifies speakers when they speak at the same time.
+
+Speaker 1: That is expected during early development. We should continue tuning the diarization parameters and test with more meeting recordings.
+
+Speaker 2: Yes, we also plan to add preprocessing techniques like noise reduction and voice activity detection to improve the diarization accuracy.
+
+Speaker 4: I would like to discuss the integration of the summarization module. We have started using the BART large CNN model from Hugging Face to generate meeting summaries from the diarized transcripts.
+
+Speaker 3: The summarization results look promising. The model is able to capture the main discussion points from the transcript. However, sometimes the summaries are slightly longer than expected.
+
+Speaker 1: We can control that by adjusting the maximum and minimum summary length parameters.
+
+Speaker 4: Exactly. I experimented with different parameters and found that a max length of 120 and a minimum length of 40 produces concise summaries.
+
+Speaker 2: Another idea is to structure the summary into sections such as key discussion points, decisions made, and action items.
+
+Speaker 3: That would make the output more useful for users who want to quickly understand the meeting outcomes.
+
+Speaker 1: Agreed. Let's implement that improvement in the next iteration.
+
+Speaker 2: I also want to mention that we have added evaluation metrics for the summarization module. We are using ROUGE and BLEU scores to measure the quality of the generated summaries compared to reference summaries.
+
+Speaker 4: The latest experiment produced a ROUGE-1 score of around 0.58 and ROUGE-L of around 0.52, which meets the evaluation requirement for the project.
+
+Speaker 3: That is good news. It means the summarization module is performing well.
+
+Speaker 1: Let's discuss the tasks for the next week.
+
+Speaker 2: I will focus on improving the speech-to-text accuracy and handling longer meeting recordings.
+
+Speaker 3: I will continue optimizing the speaker diarization model and try to reduce speaker misclassification errors.
+
+Speaker 4: I will improve the summarization module and implement structured summaries that highlight key points and action items.
+
+Speaker 1: Excellent. Please make sure to document your work so we can include it in the project report.
+
+Speaker 2: We should also prepare a short demonstration of the system for the final presentation.
+
+Speaker 3: Yes, the demo should show the full pipeline: audio input, transcription, speaker diarization, and automatic meeting summary generation.
+
+Speaker 4: I can prepare the demo script and sample meeting recordings for testing.
+
+Speaker 1: Perfect. If there are no further questions, let's conclude the meeting. Thank you everyone for your hard work.
