@@ -1,0 +1,11 @@
+{
+  "name": "live-meeting-summarizer-root",
+  "version": "1.0.0",
+  "description": "Root package to run both frontend and backend simultaneously",
+  "scripts": {
+    "start": "concurrently \"cd backend && python -m uvicorn main:app --reload\" \"cd frontend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
